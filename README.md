@@ -12,17 +12,18 @@ working in terminal
 
 ```bash
 
-$ python lang_frequency.py text.txt # possibly requires call of python3 executive instead of just python
-The word "и" repeats 6 times
-The word "это" repeats 3 times
-The word "вот" repeats 3 times
-The word "плохие" repeats 3 times
-The word "всё" repeats 3 times
-The word "просто" repeats 2 times
-The word "что" repeats 2 times
-The word "по" repeats 2 times
-The word "ну" repeats 2 times
-The word "чтобы" repeats 2 times
+$ python lang_frequency.py test.txt # possibly requires call of python3 executive instead of just python
+Most frequency word:
+не - 8
+в - 6
+на - 5
+что - 5
+и - 5
+как - 4
+с - 4
+более - 3
+того - 2
+уважаемый - 2
 
 ```
 

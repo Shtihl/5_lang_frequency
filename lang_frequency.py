@@ -15,6 +15,10 @@ def get_most_frequent_words(text):
 
 
 if __name__ == '__main__':
-    document = load_text_data(sys.argv[1])
-    for word, quantity in get_most_frequent_words(document):
-        print('The word "{}" repeats {} times'.format(word, quantity))
+    if len(sys.argv) > 1:
+        document = load_text_data(sys.argv[1])
+        print('Most frequency word:')
+        for word, quantity in get_most_frequent_words(document):
+            print('{} - {}'.format(word, quantity))
+    else:
+        print('Usage: python lang_frequency.py <file_name.txt')
